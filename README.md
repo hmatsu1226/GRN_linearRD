@@ -17,7 +17,7 @@ Or download from "Download ZIP" button and unzip it.
 Rscript GRN_linearRD.R <Input_file> <Output_file1> <Output_file2> <s>
 ```
 
-* Input_file : G x S matrix of expression data, where G is the number of gene, S is the number of position
+* Input_file : G x S matrix of expression data; G is the number of gene, S is the number of position
 * Output_file1 : Inferred W.
 * Output_file2 : Inferred A (-W*W).
 * s : The size of small space step (delta s).
@@ -32,9 +32,9 @@ Rscript GRN_linearRD.R data/data_dm.txt W_dm.txt A_dm.txt 0.001
 The smoothed gap gene expression data.
 The original expression data is downloaded from SuperFly (http://superfly.crg.eu).
 #### data/data_dm.txt
-The smoothed gap gene data of Drosophila melanogaster.
+The smoothed gap gene data (hb, Kr, gt, and kni) of Drosophila melanogaster.
 #### data/data_ca.txt
-The smoothed gap gene data of Clogmia albipunctata.
+The smoothed gap gene data (hb, Kr, gt, and knl) of Clogmia albipunctata.
 
 ## License
 Copyright (c) 2017 Hirotaka Matsumoto
